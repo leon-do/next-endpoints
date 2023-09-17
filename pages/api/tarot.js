@@ -362,5 +362,5 @@ export default async function handler(req, res) {
     'https://image.lexica.art/md2/6ec0665f-df57-471c-8abe-4c8473b533fb'
   ];
   const randomIndex = Math.floor(Math.random() * urls.length);
-  res.json({ url: urls[randomIndex] });
+  res.json({ tarot: urls[randomIndex] });
 }
